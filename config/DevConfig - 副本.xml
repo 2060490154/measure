@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DevConfig>
+    <KxCCD DevIP="192.168.0.130" Port="4120"/>
+    <OSCII DevIP="192.168.0.120">
+        <Channel No="3" Name="波形数据"/>
+    </OSCII>
+    <SHUTTER DEVNUM="2" DevIP1="192.168.0.35" DevIP2="192.168.0.135" Port="23"/>
+    <ENERGYMETER DevIndex="0" Name="监视能量计" Coeff="27.7" SerialNum="634682"/>
+    <ENERGYMETER DevIndex="1" Name="主能量计" Coeff="1" SerialNum="634685"/>
+</DevConfig>

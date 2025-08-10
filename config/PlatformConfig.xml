@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlatformConfig>
+    <Status WaveLength="2"/>
+    <!--0-1064nm 1-533nm 2-355nm!-->
+    <EnergyAdjCoeff Coeff_b="1" WaveLength="0" Coeff_k="1"/>
+    <EnergyAdjCoeff Coeff_b="1" WaveLength="1" Coeff_k="1"/>
+    <EnergyAdjCoeff Coeff_b="-267.37" WaveLength="2" Coeff_k="7.3452"/>
+</PlatformConfig>

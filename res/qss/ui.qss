@@ -1,0 +1,105 @@
+
+
+QListView#NavList{
+    show-decoration-selected: 1;
+     background-color: rgb(188,212,212);
+}
+QListView#NavList::item {
+   min-height:50px;   /*璁剧疆姣忎釜item鐨勯珮搴?/
+   border-style: none;  /*鍘绘帀item鐨刡orber*/
+   color: rgb(0, 0, 0);/*鏂囧瓧棰滆壊*/
+   font: 12pt "寰蒋闆呴粦";
+   border: 0.5px solid rgb(225,225,225);
+}
+
+QListView#NavList::item:selected {
+    border: none;
+    border-style: none;
+    background: rgb(165, 188, 188);/*qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #FAFBFE, stop: 1 #DCDEF1);*//*杩欐槸涓€涓笎鍙橀鑹?/
+    font-weight: bold; /* 加粗文本 */
+    color: rgb(0,0,0);/*閫変腑瀛椾綋*/
+
+}
+
+
+
+QListView#NavList::item:hover {  /*榧犳爣鎮仠鏃剁殑鏁堟灉*/
+     color: rgb(0,0,0);/*閫変腑瀛椾綋*/
+     background: rgb(177, 200, 200);
+}
+
+
+QPushButton {
+
+background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(214, 214, 214, 255), stop:0.5 rgba(236, 236, 236, 255));
+border: 1px solid rgb(124, 124, 124);
+border-radius:5px;
+
+}
+
+
+QPushButton:hover {
+ background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(181, 225, 250, 255), stop:0.5 rgba(222, 242, 251, 255));
+ border-radius:5px;
+ border: 1px solid #3C80B1;
+
+}
+
+QPushButton:pressed {
+ background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(134, 198, 233, 255), stop:0.5 rgba(206, 234, 248, 255));
+ border-radius:5px;
+ border: 1px solid #33FF00;
+}
+
+
+QPushButton:disable {
+ background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(134, 198, 233, 255), stop:0.5 rgba(206, 234, 248, 255));
+ border-radius:5px;
+ border: 1px solid #33FF00;
+}
+
+
+QComboBox {
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px 2px 1px 2px;
+    min-width: 9em;
+    background-color:rgb(255,255,255);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid; /* just a single line */
+    border-top-right-radius: 3px; /* same radius as the QComboBox */
+    border-bottom-right-radius: 3px;
+}
+
+QComboBox::down-arrow {
+    image: url(:/png/down_arrow.png);
+}
+
+
+QComboBox#NONE::down-arrow {
+    image: url(:/png/downarrow.png);
+}
+
+
+/*checkbox鏍峰紡璁剧疆*/
+QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+}
+/*鏈€変腑*/
+QCheckBox::indicator::unchecked {
+    image: url(:/png/unchecked.png);
+}
+/*閫変腑*/
+QCheckBox::indicator::checked {
+    image: url(:/png/checked.png);
+}

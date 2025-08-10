@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/png">
+        <file alias="chart.png">png/chart.png</file>
+        <file alias="dev.png">png/set.png</file>
+        <file alias="connect.png">png/connect.png</file>
+        <file alias="disconnect.png">png/disconnect.png</file>
+        <file alias="checked.png">png/checked.png</file>
+        <file alias="unchecked.png">png/unchecked.png</file>
+        <file alias="left.png">png/left.png</file>
+        <file alias="right.png">png/right.png</file>
+        <file alias="stop.png">png/stop.png</file>
+        <file alias="zero.png">png/zero.png</file>
+        <file alias="down_arrow.png">png/down_arrow.png</file>
+        <file alias="status_fail.png">png/staus_fail.png</file>
+        <file alias="status_ok.png">png/status_ok.png</file>
+        <file alias="openfile.png">png/openfile.png</file>
+        <file alias="saveas.png">png/saveas.png</file>
+        <file alias="start.png">png/start.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file alias="ui.qss">qss/ui.qss</file>
+    </qresource>
+</RCC>
